@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="tic-tac-toe.css" />
+  </head>
+  <body>
+    <p id="game_name">Tic-Tac-Toe Game</p>
+    <div id="cont">
+      <div id="grid">
+        <div><input id="00" oninput="tictac(id)" autocomplete="off" /></div>
+        <div><input id="01" oninput="tictac(id)" autocomplete="off" /></div>
+        <div><input id="02" oninput="tictac(id)" autocomplete="off" /></div>
+        <div><input id="10" oninput="tictac(id)" autocomplete="off" /></div>
+        <div><input id="11" oninput="tictac(id)" autocomplete="off" /></div>
+        <div><input id="12" oninput="tictac(id)" autocomplete="off" /></div>
+        <div><input id="20" oninput="tictac(id)" autocomplete="off" /></div>
+        <div><input id="21" oninput="tictac(id)" autocomplete="off" /></div>
+        <div><input id="22" oninput="tictac(id)" autocomplete="off" /></div>
+      </div>
+      <div id="instruct">
+        <p>RULES FOR TIC-TAC-TOE</p>
+        <ol>
+          <li>The game is played on a grid that's 3 squares by 3 squares.</li>
+          <li>
+            You are X, your friend is O. Players take turns putting their marks
+            in empty squares.
+          </li>
+          <li>
+            The first player to get 3 of their marks i.e., X or O in a row (up,
+            down, across, or diagonally) is the winner.
+          </li>
+          <li>
+            When all 9 squares are full, the game is over. If no player has 3
+            marks in a row, the game ends in a tie.
+          </li>
+        </ol>
+        <center>
+          <a target="_blank" href="https://www.youtube.com/watch?v=iEW-d02l9ew">
+            Reference link on how to play tic tac toe :P</a
+          >
+        </center>
+      </div>
+    </div>
+    <p id="msg">
+      <img
+        id="gif"
+        src="https://freight.cargo.site/w/1120/i/cf19d2f04db678c5f6ccab680e95a6fb7bc156b7216cd680795471e7aaf96393/letsplay.gif"
+        alt="Welcome to the game of TIC-TAC-TOE :)"
+      />
+    </p>
+  </body>
+</html>
+<script src="tic-tac-toe.js"></script>

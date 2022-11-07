@@ -1,0 +1,100 @@
+body {
+    background-image: url("data:image/jpeg;base64,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");
+  }
+  #game_name {
+    width: 35%;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-family: cursive;
+    text-align: center;
+    font-size: 40px;
+    color: teal;
+    border: 2px dashed teal;
+    font-weight: bolder;
+  }
+  #grid {
+    width: 30%;
+    padding: 25px;
+    margin: auto;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+    background-color: rgb(195, 224, 235);
+    box-shadow: darkblue 0px 5px 15px;
+  }
+  input {
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    border: 2px darkblue solid;
+    font-size: 25px;
+  }
+  input:hover {
+    transform: scale(1.2);
+  }
+  #cont {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    /* border:1px solid red; */
+  }
+  #instruct {
+    width: 40%;
+    text-align: justify;
+  }
+  #instruct p {
+    box-shadow: rgb(182, 182, 226) 0px 5px 15px;
+    padding-bottom: 5px;
+    font-size: larger;
+    color: darkblue;
+    font-weight: bold;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  li {
+    padding: 8px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  li:nth-child(even) {
+    color: orangered;
+  }
+  li:nth-child(odd) {
+    color: blueviolet;
+  }
+  #msg {
+    /* border:1px solid red; */
+    font-family: cursive;
+    font-style: italic;
+    text-align: center;
+    font-size: 45px;
+    color: crimson;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+  }
+  .win {
+    background-color: yellowgreen;
+    color: darkgreen;
+    font-size: 40px;
+  }
+  img {
+    width: 100px;
+    height: 100px;
+  }
+  #gif {
+    width: 300px;
+    height: 100px;
+  }
+  a {
+    color: slateblue;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
